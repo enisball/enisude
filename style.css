@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+/*
+.delicious-handrawn-regular {
+  font-family: "Delicious Handrawn", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*
+.lobster-regular {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+@media screen and (max-width: 375px) {
+    body {
+      background-color: #d99ff0;
+    }
+
+    .header {
+        color: #fff;
+        width: 100%;
+        height: 40px;
+        background-color: #d99ff0;
+        font-size: 20px;
+        font-family: "Lobster", serif;
+        text-align: center;
+    }
+
+    .contentBox {
+        background-color: #9fd2f0;
+        width: 100%;
+        height: 792px;
+    }
+
+    .first-text {
+        font-family: "Delicious Handrawn", serif;
+        font-size: 60px;
+        color: #fff;
+        text-align: center;   
+    }
+
+    .sarki {
+        margin-top: 100px;
+        margin-left: 37px;
+    }
+
+    .contentBox-2 {
+        background-color: #a6f09f;
+        width: 100%;
+        height: 832px;
+    }
+
+    .second-text {
+        font-family: "Delicious Handrawn", serif;
+        font-size: 60px;
+        color: #fff;
+        text-align: center;   
+    }
+
+    .contentBox-3 {
+        background-color:#b59ff0;
+        width: 100%;
+        height: 840px;
+    }
+    
+    .foto-1-enisten {
+        width: 200px;
+        height: 400px;
+        margin-top: 87px;
+        margin-right: 87px;
+        margin-left: 87px;
+    }
+
+    .third-text {
+        font-family: "Delicious Handrawn", serif;
+        font-size: 40px;
+        color: #fff;
+        text-align: center; 
+    }
+
+    .contentBox-4 {
+        background-image: url(media/el.jpeg);
+        background-repeat: repeat;
+        width: 100%;
+        height: 667px;
+    }
+
+    .dort-text {
+        font-family: "Delicious Handrawn", serif;
+        font-size: 30px;
+        color: #fff;
+        text-align: center; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentBox-5 {
+        background-color:#ebd558;
+        width: 100%;
+        height: 800px;
+    }
+
+    .mum-foto {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .contentBox-6 {
+        background-color:#9ea59c;
+        width: 100%;
+        height: 800px;
+    }
+
+    .contentBox-7 {
+        background-color:#0e2230;
+        width: 100%;
+        height: 800px;
+    }
+
+    #video-id {
+        margin-top: 100px;
+    }
+
+    .contentBox-8 {
+        background-color:#356842;
+        width: 100%;
+        height: 800px;
+    }
+
+    .izgara-div{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .contentBox-9 {
+        background-color:#381421;
+        width: 100%;
+        height: 800px;
+    }
+
+    .zigzag-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .zigzag {
+        margin-top: 150px;
+        width: 150px;
+        height: 150px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-10%);
+    }
+    
+    .zigzag-1 { top: 0; left: 10%; }
+    .zigzag-2 { top: 90px; left: 60%; }
+    .zigzag-3 { top: 190px; left: 90%; }
+    .zigzag-4 { top: 260px; left: 120%; }
+
+    .contentBox-10 {
+        background-color:#707070;
+        width: 100%;
+        height: 800px;
+    }
+
+    .contentBox-11 {
+        background-color:#323e74;
+        width: 100%;
+        height: 800px;
+    }
+
+    .contentBox-12 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color:#000000;
+        width: 100%;
+        height: 900px;
+    }
+
+    .siir-text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: #fff;
+        text-align: left; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentBox-13 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color:#ffffff;
+        width: 100%;
+        height: 800px;
+    }
+
+    .ozur-text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: #000000;
+        text-align: left; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
